@@ -25,6 +25,8 @@ Complete this project in R and Python as two standalone reports.
 
 ## Data dictionary
 
+Some variables are defined below.
+
 |variable  |class     |description                                              |
 |:---------|:---------|:--------------------------------------------------------|
 |parcel    |character |The parcel id                                            |
