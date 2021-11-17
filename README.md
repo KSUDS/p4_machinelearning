@@ -28,9 +28,9 @@ Complete this project in R and Python as two standalone reports.
 |variable  |class     |description                                              |
 |:---------|:---------|:--------------------------------------------------------|
 |parcel    |character |The parcel id                                            |
-|nbhd      |numeric   |Neigborhood of the home                                  |
+|nbhd      |numeric   |Neighborhood of the home                                  |
 |abstrprd  |numeric   |No clue                                                  |
-|livearea  |numeric   |Square footage that is liveable                          |
+|livearea  |numeric   |Square footage that is livable                          |
 |finbsmnt  |numeric   |Square footage finished in the basement                  |
 |basement  |numeric   |Total square footage of the basement                     |
 |yrbuilt   |numeric   |Year the home was built                                  |
@@ -40,7 +40,7 @@ Complete this project in R and Python as two standalone reports.
 |stories   |numeric   |The number of stories                                    |
 |gartype   |character |Details on the garage type                               |
 |nocars    |numeric   |size of the garage in cars                               |
-|xtraffic  |logical   |emtpy                                                    |
+|xtraffic  |logical   |empty                                                    |
 |floorlvl  |numeric   |Mostly for apartments.  What level the living unit is on |
 |numbdrm   |numeric   |Number of bedrooms                                       |
 |numbaths  |numeric   |Number of bathrooms                                      |
@@ -48,7 +48,7 @@ Complete this project in R and Python as two standalone reports.
 |sprice    |numeric   |Selling price                                            |
 |deduct    |numeric   |Deduction from the selling price                         |
 |netprice  |numeric   |Net price of home                                        |
-|tasp      |numeric   |Tax assesed selling price                                |
+|tasp      |numeric   |Tax assessed selling price                                |
 |smonth    |numeric   |Month sold                                               |
 |syear     |numeric   |Year sold                                                |
 |qualified |character |Q or U with 66 percent Q                                 |
