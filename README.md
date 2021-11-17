@@ -22,3 +22,34 @@ Complete this project in R and Python as two standalone reports.
 - [ ] Can you build a classification model (before or after 1980) that has at least 90% accuracy for the state of Colorado to use (explain your model choice and which models you tried)?
 - [ ] Will you justify your classification model by detailing the essential features in your model (a chart and a description are a must)?
 - [ ] Can you describe the quality of your classification model using 2-3 evaluation metrics? You need to provide an interpretation of each evaluation metric when you provide the value.
+
+## Data dictionary
+
+|variable  |class     |description                                              |
+|:---------|:---------|:--------------------------------------------------------|
+|parcel    |character |The parcel id                                            |
+|nbhd      |numeric   |Neigborhood of the home                                  |
+|abstrprd  |numeric   |No clue                                                  |
+|livearea  |numeric   |Square footage that is liveable                          |
+|finbsmnt  |numeric   |Square footage finished in the basement                  |
+|basement  |numeric   |Total square footage of the basement                     |
+|yrbuilt   |numeric   |Year the home was built                                  |
+|condition |character |Condition of the home (6 levels provided)                |
+|quality   |character |A letter ratting                                         |
+|totunits  |numeric   |How many dwelling units in the building                  |
+|stories   |numeric   |The number of stories                                    |
+|gartype   |character |Details on the garage type                               |
+|nocars    |numeric   |size of the garage in cars                               |
+|xtraffic  |logical   |emtpy                                                    |
+|floorlvl  |numeric   |Mostly for apartments.  What level the living unit is on |
+|numbdrm   |numeric   |Number of bedrooms                                       |
+|numbaths  |numeric   |Number of bathrooms                                      |
+|arcstyle  |character |Type of home                                             |
+|sprice    |numeric   |Selling price                                            |
+|deduct    |numeric   |Deduction from the selling price                         |
+|netprice  |numeric   |Net price of home                                        |
+|tasp      |numeric   |Tax assesed selling price                                |
+|smonth    |numeric   |Month sold                                               |
+|syear     |numeric   |Year sold                                                |
+|qualified |character |Q or U with 66 percent Q                                 |
+|status    |character |I or V with over 90 percent I                            |
